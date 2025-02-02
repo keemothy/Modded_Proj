@@ -1,4 +1,4 @@
-package proj.space.mod;
+package proj.pack.spacemod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

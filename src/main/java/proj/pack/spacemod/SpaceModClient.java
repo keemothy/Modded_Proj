@@ -1,4 +1,4 @@
-package proj.space.mod;
+package proj.pack.spacemod;
 
 import net.fabricmc.api.ClientModInitializer;
 

@@ -1,4 +1,4 @@
-package proj.space.mod.mixin;
+package proj.pack.spacemod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
