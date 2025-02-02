@@ -19,6 +19,8 @@ public class SpaceMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		// testing 2nd commit
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }
