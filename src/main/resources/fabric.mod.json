@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "space-mod",
+	"version": "${version}",
+	"name": "Space Mod",
+	"description": "This is a Space Mod project",
+	"authors": [
+		"Kim Chu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/space-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"proj.space.mod.SpaceMod"
+		],
+		"fabric-datagen": [
+			"proj.space.mod.SpaceModDataGenerator"
+		],
+		"client": [
+			"proj.space.mod.SpaceModClient"
+		]
+	},
+	"mixins": [
+		"space-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
