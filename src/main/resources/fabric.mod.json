@@ -2,10 +2,11 @@
 	"schemaVersion": 1,
 	"id": "space-mod",
 	"version": "${version}",
-	"name": "Space Mod",
-	"description": "This is a Space Mod project",
+	"name": "SpaceCraft",
+	"description": "A friendly mod for space lovers.",
 	"authors": [
-		"Kim Chu"
+		"Kim Chu",
+		"David Estrella"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,13 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"proj.space.mod.SpaceMod"
+			"proj.pack.spacemod.SpaceMod"
 		],
 		"fabric-datagen": [
-			"proj.space.mod.SpaceModDataGenerator"
+			"proj.pack.spacemod.SpaceModDataGenerator"
 		],
 		"client": [
-			"proj.space.mod.SpaceModClient"
+			"proj.pack.spacemod.SpaceModClient"
 		]
 	},
 	"mixins": [

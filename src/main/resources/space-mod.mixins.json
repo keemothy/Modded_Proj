@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "proj.space.mod.mixin",
+	"package": "proj.pack.spacemod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
