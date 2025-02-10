@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import proj.pack.spacemod.item.ModItemGroups;
 import proj.pack.spacemod.item.ModItems;
 
 public class SpaceMod implements ModInitializer {
@@ -12,6 +13,11 @@ public class SpaceMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 	}
+
+
 }

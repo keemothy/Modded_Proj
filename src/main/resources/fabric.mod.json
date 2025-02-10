@@ -3,7 +3,7 @@
 	"id": "space-mod",
 	"version": "${version}",
 	"name": "SpaceCraft",
-	"description": "A friendly mod for space lovers.",
+	"description": "A user-friendly mod for space lovers.",
 	"authors": [
 		"Kim Chu",
 		"David Estrella"

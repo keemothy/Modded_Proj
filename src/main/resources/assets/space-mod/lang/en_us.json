@@ -1,5 +1,10 @@
 {
-  "item.space-mod.space_helmet": "Space Helmet"
+  "item.space-mod.space_helmet": "Space Helmet",
+
+
+
+  "itemgroup.space-mod.SpaceCraft": "SpaceCraft Items"
+
 }
 
 
